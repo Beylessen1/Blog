@@ -1,6 +1,6 @@
-@import url("/assets/fonts/vivoSans-Regular/result.css");
-@import url("/assets/fonts/vivoSans-Regular/result.css");
-@import url("/assets/fonts/SFMonoRegular/result.css");
+@import url("/Blog/assets/fonts/vivoSans-Regular/result.css");
+@import url("/Blog/assets/fonts/vivoSans-Regular/result.css");
+@import url("/Blog/assets/fonts/SFMonoRegular/result.css");
 body[data-mode='light'] {
   --theme-color: #ffb0dd;
   --theme-color-light-1: #ffd0eb;
@@ -26,7 +26,7 @@ body[data-mode='light'] {
   --font-color-light-2: #9b9b9b;
   --font-color-light-3: #cdcdcd;
   --link-hover-font-color: #fff;
-  --banner-background: url("/assets/images/background.png");
+  --banner-background: url("/Blog/assets/images/background.png");
   --banner-font-color: #000000;
   --nav-background-color: rgba(255,255,255,0.188);
   --card-border-color: #d7d7d7;
@@ -58,7 +58,7 @@ body[data-mode='dark'] {
   --font-color-light-2: #808090;
   --font-color-light-3: #5b5b67;
   --link-hover-font-color: #2d2d2d;
-  --banner-background: url("/assets/images/wallhaven-e7zogk.webp");
+  --banner-background: url("/Blog/assets/images/wallhaven-e7zogk.webp");
   --banner-font-color: #e0e0e0;
   --nav-background-color: transparent;
   --card-border-color: #3b3b3b;
@@ -1294,7 +1294,7 @@ body[data-mode="dark"] .home-article-info .icon {
 }
 .archive-post[archive-style="normal"]:after {
   content: "";
-  background-image: url("/assets/images/curlers.png");
+  background-image: url("/Blog/assets/images/curlers.png");
   background-size: cover;
   position: absolute;
   top: 0.5rem;
@@ -1448,7 +1448,7 @@ body[data-mode="dark"] .home-article-info .icon {
 }
 .category-container:after {
   content: "";
-  background-image: url("/assets/images/curlers.png");
+  background-image: url("/Blog/assets/images/curlers.png");
   background-size: cover;
   position: absolute;
   bottom: 0;
