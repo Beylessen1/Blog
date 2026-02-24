@@ -31,12 +31,12 @@ body[data-mode='light'] {
   --meow-card-shadow: 0px 3px 8px 6px rgba(42,42,42,0.051);
 }
 body[data-mode='dark'] {
-  --theme-color: #88c0ed;
-  --theme-color-light-1: #b8d9f4;
-  --theme-color-light-2: #a0cdf1;
-  --theme-color-light-3: #acd3f2;
-  --theme-color-transparent-1: rgba(136,192,237,0.6);
-  --theme-color-dark-1: #68afe8;
+  --theme-color: #ffb0dd;
+  --theme-color-light-1: #ffd0eb;
+  --theme-color-light-2: #ffc0e4;
+  --theme-color-light-3: #ffc8e7;
+  --theme-color-transparent-1: rgba(255,176,221,0.6);
+  --theme-color-dark-1: #ff85ca;
   --background-color: #2d2d2d;
   --background-color-transparent-1: rgba(45,45,45,0.88);
   --background-color-transparent-2: rgba(45,45,45,0.7);
@@ -55,8 +55,8 @@ body[data-mode='dark'] {
   --font-color-light-2: #808090;
   --font-color-light-3: #5b5b67;
   --link-hover-font-color: #2d2d2d;
-  --banner-background: url("/Blog/assets/images/wallhaven-e7zogk.webp");
-  --banner-font-color: #e0e0e0;
+  --banner-background: url("/Blog/assets/images/background.png");
+  --banner-font-color: #000000;
   --nav-background-color: transparent;
   --card-border-color: #3b3b3b;
   --meow-box-shadow: 1px 1px 1px 1px rgba(187,187,187,0.012);
