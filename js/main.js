@@ -4,6 +4,26 @@
  */
 
 // import initSwup from "./theme/tools/swup.js";
+
+
+// FORCE DARK MODE - must be first
+localStorage.setItem('color-mode', 'dark');
+document.documentElement.classList.remove('light');
+document.documentElement.classList.add('dark');
+document.body.setAttribute('data-mode', 'dark');
+
+
+
+
+
+
+
+
+
+
+
+
+
 import initMenu from "./theme/menu.js";
 import initToolbar from "./theme/toolbar.js";
 import initScroll from "./theme/tools/scroll.js";
