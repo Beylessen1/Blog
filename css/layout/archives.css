@@ -67,7 +67,7 @@
 }
 .archive-post[archive-style="normal"]:after {
   content: "";
-  background-image: url("/assets/images/curlers.png");
+  background-image: url("/Blog/assets/images/curlers.png");
   background-size: cover;
   position: absolute;
   top: 0.5rem;
